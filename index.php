@@ -20,6 +20,7 @@
  * Nichim. Es una palabra en Tsotsil el cuál significa Flor.
  */
 
+ require_once "app/vendor/Nichim.php";
 
- echo "Nichim";
+ $Nichim = Nichim::likebal();
 ?>
