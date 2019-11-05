@@ -19,6 +19,25 @@
  * El resto de datos que vayan después se convierten en los parámetros del objeto.
  */
 class Router{
+  /**
+   * Obtener la uri consultada
+   * @var string
+   */
+  public $uri;
+
+  public function __construct(){
+    $u = $this->uri;
+    $this->getRoute($u);
+  }
+  /**
+   * Procesa la consulta de la uri
+   * @param  string $u uri obtenida de la consulta
+   * @return string    uri separada
+   */
+  public function getRoute($u){
+    $uri_e = explode("/",$u);
+    return $uri_e;
+  }
 
 }
 
