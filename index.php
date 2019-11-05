@@ -22,5 +22,5 @@
 
  require_once "app/vendor/Nichim.php";
 
- $Nichim = Nichim::likebal();
+ $Nichim = new Nichim();
 ?>

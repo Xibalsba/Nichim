@@ -12,8 +12,8 @@ class Nichim{
    * Objeto para incializar el Framework
    * @return void
    */
-  public function likebal(){
-    echo "Nichim desde la clase";
+  public function __construct(){
+    echo "Nichim";
   }
 }
 
